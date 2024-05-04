@@ -45,9 +45,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 40F);
-            label1.Location = new Point(107, 81);
+            label1.Location = new Point(94, 61);
             label1.Name = "label1";
-            label1.Size = new Size(586, 89);
+            label1.Size = new Size(472, 72);
             label1.TabIndex = 0;
             label1.Text = "Player Registration";
             // 
@@ -55,93 +55,99 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F);
-            label2.Location = new Point(121, 196);
+            label2.Location = new Point(106, 147);
             label2.Name = "label2";
-            label2.Size = new Size(275, 30);
+            label2.Size = new Size(232, 25);
             label2.TabIndex = 2;
             label2.Text = "Register yourself as a player";
             // 
             // name
             // 
-            name.Location = new Point(240, 297);
+            name.Location = new Point(210, 223);
+            name.Margin = new Padding(3, 2, 3, 2);
             name.Name = "name";
-            name.Size = new Size(163, 27);
+            name.Size = new Size(143, 23);
             name.TabIndex = 3;
             // 
             // email
             // 
-            email.Location = new Point(530, 297);
+            email.Location = new Point(464, 223);
+            email.Margin = new Padding(3, 2, 3, 2);
             email.Name = "email";
-            email.Size = new Size(163, 27);
+            email.Size = new Size(143, 23);
             email.TabIndex = 4;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(240, 274);
+            label3.Location = new Point(210, 206);
             label3.Name = "label3";
-            label3.Size = new Size(49, 20);
+            label3.Size = new Size(39, 15);
             label3.TabIndex = 6;
             label3.Text = "Name";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(530, 274);
+            label4.Location = new Point(464, 206);
             label4.Name = "label4";
-            label4.Size = new Size(46, 20);
+            label4.Size = new Size(36, 15);
             label4.TabIndex = 7;
             label4.Text = "Email";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(240, 364);
+            label5.Location = new Point(210, 273);
             label5.Name = "label5";
-            label5.Size = new Size(70, 20);
+            label5.Size = new Size(57, 15);
             label5.TabIndex = 8;
             label5.Text = "Password";
             // 
             // password
             // 
-            password.UseSystemPasswordChar = true; // Masks the password input
-            password.Location = new Point(240, 387);
+            password.Location = new Point(210, 290);
+            password.Margin = new Padding(3, 2, 3, 2);
             password.Name = "password";
-            password.Size = new Size(163, 27);
+            password.Size = new Size(143, 23);
             password.TabIndex = 9;
+            password.UseSystemPasswordChar = true;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(530, 364);
+            label6.Location = new Point(464, 273);
             label6.Name = "label6";
-            label6.Size = new Size(97, 20);
+            label6.Size = new Size(77, 15);
             label6.TabIndex = 10;
             label6.Text = "Health Status";
             // 
             // healthStatus
             // 
             healthStatus.FormattingEnabled = true;
-            healthStatus.Items.AddRange(new object[] { "Fit", "Unfit" }); // Adding options to the ComboBox
-            healthStatus.Location = new Point(530, 387);
+            healthStatus.Items.AddRange(new object[] { "Fit", "Unfit" });
+            healthStatus.Location = new Point(464, 290);
+            healthStatus.Margin = new Padding(3, 2, 3, 2);
             healthStatus.Name = "healthStatus";
-            healthStatus.Size = new Size(163, 28);
+            healthStatus.Size = new Size(143, 23);
             healthStatus.TabIndex = 11;
             // 
             // submitButton
             // 
-            submitButton.Location = new Point(422, 455);
+            submitButton.Location = new Point(369, 341);
+            submitButton.Margin = new Padding(3, 2, 3, 2);
             submitButton.Name = "submitButton";
-            submitButton.Size = new Size(94, 29);
+            submitButton.Size = new Size(82, 22);
             submitButton.TabIndex = 12;
             submitButton.Text = "Submit";
             submitButton.UseVisualStyleBackColor = true;
+            submitButton.Click += submitButton_Click_1;
             // 
             // PlayerRegistrationForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(974, 560);
+            ClientSize = new Size(852, 420);
             Controls.Add(submitButton);
             Controls.Add(healthStatus);
             Controls.Add(label6);
@@ -153,8 +159,10 @@
             Controls.Add(name);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "PlayerRegistrationForm";
-            Text = "PlayerRegistrationForm";
+            Text = "s";
+            Load += PlayerRegistrationForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

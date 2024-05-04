@@ -1,15 +1,12 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Numerics;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace TAMS
 {
@@ -43,6 +40,31 @@ namespace TAMS
             // Open form to register a Player
             PlayerRegistrationForm playerForm = new PlayerRegistrationForm();
             playerForm.Show();
+        }
+
+        private void captain_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void player_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bidHerald_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegistrationScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

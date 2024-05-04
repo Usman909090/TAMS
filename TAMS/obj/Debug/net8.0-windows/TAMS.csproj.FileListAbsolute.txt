@@ -29,5 +29,38 @@ C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.RegistrationScreen.r
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.BidHeraldRegistrationForm.resources
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.CaptainRegistrationForm.resources
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.PlayerRegistrationForm.resources
-C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.UpdateHealthStatus.resources
-C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ViewAllTeams.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\TAMS.exe
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\TAMS.deps.json
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\TAMS.runtimeconfig.json
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\TAMS.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\TAMS.pdb
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.csproj.AssemblyReference.cache
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.BidHeraldDashboard.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.BidHeraldRegistrationForm.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.CaptainDashboard.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.CaptainRegistrationForm.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.PlayerDashboard.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.PlayerRegistrationForm.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.RegistrationScreen.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.csproj.GenerateResource.cache
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.AssemblyInfoInputs.cache
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.AssemblyInfo.cs
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.csproj.CoreCompileInputs.cache
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.sourcelink.json
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.csproj.CopyComplete
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\refint\TAMS.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.pdb
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.genruntimeconfig.cache
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\ref\TAMS.dll
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.TeamPlayerDashboard.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.UserDashboard.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.AuctionHouseForm.resources
+C:\E ka Maal\D ka Maal\22i - 2434\Semester 4\DB\Theory\Project\D4\TAMS\obj\Debug\net8.0-windows\TAMS.LoginScreenForm.resources

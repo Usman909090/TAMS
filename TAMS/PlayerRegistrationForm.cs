@@ -70,5 +70,15 @@ namespace TAMS
                 MessageBox.Show("Database connection failed: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void submitButton_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlayerRegistrationForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

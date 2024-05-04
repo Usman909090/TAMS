@@ -46,93 +46,99 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(267, 421);
+            label7.Location = new Point(234, 316);
             label7.Name = "label7";
-            label7.Size = new Size(119, 20);
+            label7.Size = new Size(94, 15);
             label7.TabIndex = 39;
             label7.Text = "Experiance Years";
             // 
             // licenseNumber
             // 
-            licenseNumber.Location = new Point(557, 365);
+            licenseNumber.Location = new Point(487, 274);
+            licenseNumber.Margin = new Padding(3, 2, 3, 2);
             licenseNumber.Name = "licenseNumber";
-            licenseNumber.Size = new Size(163, 27);
+            licenseNumber.Size = new Size(143, 23);
             licenseNumber.TabIndex = 38;
             // 
             // submitButton
             // 
-            submitButton.Location = new Point(451, 498);
+            submitButton.Location = new Point(395, 374);
+            submitButton.Margin = new Padding(3, 2, 3, 2);
             submitButton.Name = "submitButton";
-            submitButton.Size = new Size(94, 29);
+            submitButton.Size = new Size(82, 22);
             submitButton.TabIndex = 37;
             submitButton.Text = "Submit";
             submitButton.UseVisualStyleBackColor = true;
+            submitButton.Click += submitButton_Click_1;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(557, 342);
+            label6.Location = new Point(487, 256);
             label6.Name = "label6";
-            label6.Size = new Size(115, 20);
+            label6.Size = new Size(93, 15);
             label6.TabIndex = 36;
             label6.Text = "License Number";
             // 
             // password
             // 
-            password.Location = new Point(267, 365);
+            password.Location = new Point(234, 274);
+            password.Margin = new Padding(3, 2, 3, 2);
             password.Name = "password";
-            password.Size = new Size(163, 27);
+            password.Size = new Size(143, 23);
             password.TabIndex = 35;
             password.UseSystemPasswordChar = true;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(267, 342);
+            label5.Location = new Point(234, 256);
             label5.Name = "label5";
-            label5.Size = new Size(70, 20);
+            label5.Size = new Size(57, 15);
             label5.TabIndex = 34;
             label5.Text = "Password";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(557, 264);
+            label4.Location = new Point(487, 198);
             label4.Name = "label4";
-            label4.Size = new Size(46, 20);
+            label4.Size = new Size(36, 15);
             label4.TabIndex = 33;
             label4.Text = "Email";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(267, 264);
+            label3.Location = new Point(234, 198);
             label3.Name = "label3";
-            label3.Size = new Size(49, 20);
+            label3.Size = new Size(39, 15);
             label3.TabIndex = 32;
             label3.Text = "Name";
             // 
             // email
             // 
-            email.Location = new Point(557, 287);
+            email.Location = new Point(487, 215);
+            email.Margin = new Padding(3, 2, 3, 2);
             email.Name = "email";
-            email.Size = new Size(163, 27);
+            email.Size = new Size(143, 23);
             email.TabIndex = 31;
             // 
             // name
             // 
-            name.Location = new Point(267, 287);
+            name.Location = new Point(234, 215);
+            name.Margin = new Padding(3, 2, 3, 2);
             name.Name = "name";
-            name.Size = new Size(163, 27);
+            name.Size = new Size(143, 23);
             name.TabIndex = 30;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F);
-            label2.Location = new Point(148, 186);
+            label2.Location = new Point(130, 140);
             label2.Name = "label2";
-            label2.Size = new Size(321, 30);
+            label2.Size = new Size(264, 25);
             label2.TabIndex = 29;
             label2.Text = "Register yourself as a bid herald";
             // 
@@ -140,24 +146,25 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 40F);
-            label1.Location = new Point(134, 71);
+            label1.Location = new Point(117, 53);
             label1.Name = "label1";
-            label1.Size = new Size(714, 89);
+            label1.Size = new Size(577, 72);
             label1.TabIndex = 28;
             label1.Text = "Bid Herald Registration";
             // 
             // experianceYears
             // 
-            experianceYears.Location = new Point(267, 444);
+            experianceYears.Location = new Point(234, 333);
+            experianceYears.Margin = new Padding(3, 2, 3, 2);
             experianceYears.Name = "experianceYears";
-            experianceYears.Size = new Size(163, 27);
+            experianceYears.Size = new Size(143, 23);
             experianceYears.TabIndex = 40;
             // 
             // BidHeraldRegistrationForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(974, 560);
+            ClientSize = new Size(852, 420);
             Controls.Add(experianceYears);
             Controls.Add(label7);
             Controls.Add(licenseNumber);
@@ -171,6 +178,7 @@
             Controls.Add(name);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "BidHeraldRegistrationForm";
             Text = "BidHeraldRegistrationForm";
             ResumeLayout(false);

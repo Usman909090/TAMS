@@ -1,6 +1,6 @@
 ﻿namespace TAMS
 {
-    partial class LoginScreen
+    partial class LoginScreenForm
     {
         private System.ComponentModel.IContainer components = null;
 
@@ -26,27 +26,28 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(372, 270);
-            txtUsername.Margin = new Padding(4, 5, 4, 5);
-            txtUsername.Name = "username";
-            txtUsername.Size = new Size(199, 27);
+            txtUsername.Location = new Point(326, 202);
+            txtUsername.Margin = new Padding(4);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(175, 23);
             txtUsername.TabIndex = 0;
+            txtUsername.TextChanged += txtUsername_TextChanged;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(372, 345);
-            txtPassword.Margin = new Padding(4, 5, 4, 5);
-            txtPassword.Name = "password";
+            txtPassword.Location = new Point(326, 259);
+            txtPassword.Margin = new Padding(4);
+            txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(199, 27);
+            txtPassword.Size = new Size(175, 23);
             txtPassword.TabIndex = 1;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(419, 395);
-            btnLogin.Margin = new Padding(4, 5, 4, 5);
+            btnLogin.Location = new Point(367, 296);
+            btnLogin.Margin = new Padding(4);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(100, 35);
+            btnLogin.Size = new Size(88, 26);
             btnLogin.TabIndex = 2;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -56,9 +57,9 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 13F);
-            label2.Location = new Point(175, 187);
+            label2.Location = new Point(153, 140);
             label2.Name = "label2";
-            label2.Size = new Size(511, 30);
+            label2.Size = new Size(424, 25);
             label2.TabIndex = 16;
             label2.Text = "Login into tournament auction management system";
             // 
@@ -66,35 +67,37 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 40F);
-            label1.Location = new Point(161, 72);
+            label1.Location = new Point(141, 54);
             label1.Name = "label1";
-            label1.Size = new Size(202, 89);
+            label1.Size = new Size(163, 72);
             label1.TabIndex = 15;
             label1.Text = "Login";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(372, 245);
+            label3.ImageAlign = ContentAlignment.TopCenter;
+            label3.Location = new Point(326, 184);
             label3.Name = "label3";
-            label3.Size = new Size(46, 20);
+            label3.Size = new Size(60, 15);
             label3.TabIndex = 17;
-            label3.Text = "Email";
+            label3.Text = "Username";
+            label3.Click += label3_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(372, 320);
+            label4.Location = new Point(326, 240);
             label4.Name = "label4";
-            label4.Size = new Size(70, 20);
+            label4.Size = new Size(57, 15);
             label4.TabIndex = 18;
             label4.Text = "Password";
             // 
             // LoginScreen
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(974, 560);
+            ClientSize = new Size(852, 420);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -102,9 +105,10 @@
             Controls.Add(btnLogin);
             Controls.Add(txtPassword);
             Controls.Add(txtUsername);
-            Margin = new Padding(4, 5, 4, 5);
+            Margin = new Padding(4);
             Name = "LoginScreen";
             Text = "Login";
+            Load += LoginScreen_Load;
             ResumeLayout(false);
             PerformLayout();
         }
