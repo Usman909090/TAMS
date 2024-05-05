@@ -38,7 +38,7 @@ namespace TAMS
                                 new BidHeraldDashboard().Show();
                                 break;
                             case "Captain":
-                                new CaptainDashboard().Show();
+                                new CaptainDashboard(userId).Show();
                                 break;
                             case "Player":
                                 new PlayerDashboard(userId).Show();
@@ -81,6 +81,11 @@ namespace TAMS
                 return "Player";
 
             return null;  // No role found
+        }
+
+        private void LoginScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

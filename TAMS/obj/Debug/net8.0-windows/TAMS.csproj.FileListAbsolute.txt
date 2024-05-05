@@ -31,3 +31,4 @@ C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.CaptainRegistrationF
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.PlayerRegistrationForm.resources
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.UpdateHealthStatus.resources
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ViewAllTeams.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.sourcelink.json

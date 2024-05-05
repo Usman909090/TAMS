@@ -31,5 +31,8 @@
     <Compile Update="ViewAllTeams.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ViewMyTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

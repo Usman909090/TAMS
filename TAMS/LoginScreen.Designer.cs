@@ -28,7 +28,7 @@
             // 
             txtUsername.Location = new Point(372, 270);
             txtUsername.Margin = new Padding(4, 5, 4, 5);
-            txtUsername.Name = "username";
+            txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(199, 27);
             txtUsername.TabIndex = 0;
             // 
@@ -36,7 +36,7 @@
             // 
             txtPassword.Location = new Point(372, 345);
             txtPassword.Margin = new Padding(4, 5, 4, 5);
-            txtPassword.Name = "password";
+            txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(199, 27);
             txtPassword.TabIndex = 1;
@@ -105,6 +105,7 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "LoginScreen";
             Text = "Login";
+            Load += LoginScreen_Load;
             ResumeLayout(false);
             PerformLayout();
         }
