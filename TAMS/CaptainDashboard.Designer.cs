@@ -22,11 +22,11 @@
             label7 = new Label();
             label3 = new Label();
             viewCaptainTeamBTN = new Button();
-            button1 = new Button();
             label6 = new Label();
             label2 = new Label();
             label8 = new Label();
             label9 = new Label();
+            enterAuctionHouseBTN = new Button();
             SuspendLayout();
             // 
             // label1
@@ -57,6 +57,7 @@
             viewBidHistoryBTN.TabIndex = 21;
             viewBidHistoryBTN.Text = "View Bid History";
             viewBidHistoryBTN.UseVisualStyleBackColor = true;
+            viewBidHistoryBTN.Click += viewBidHistoryBTN_Click;
             // 
             // registerForTournamentBTN
             // 
@@ -66,6 +67,7 @@
             registerForTournamentBTN.TabIndex = 22;
             registerForTournamentBTN.Text = "Register For Tournament Auction";
             registerForTournamentBTN.UseVisualStyleBackColor = true;
+            registerForTournamentBTN.Click += registerForTournamentBTN_Click;
             // 
             // label7
             // 
@@ -95,15 +97,6 @@
             viewCaptainTeamBTN.Text = "View My Team";
             viewCaptainTeamBTN.UseVisualStyleBackColor = true;
             viewCaptainTeamBTN.Click += viewCaptainTeamBTN_Click;
-            // 
-            // button1
-            // 
-            button1.Location = new Point(495, 438);
-            button1.Name = "button1";
-            button1.Size = new Size(250, 85);
-            button1.TabIndex = 29;
-            button1.Text = "Change Players";
-            button1.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -145,16 +138,26 @@
             label9.TabIndex = 30;
             label9.Text = "Usman";
             // 
+            // enterAuctionHouseBTN
+            // 
+            enterAuctionHouseBTN.Location = new Point(499, 438);
+            enterAuctionHouseBTN.Name = "enterAuctionHouseBTN";
+            enterAuctionHouseBTN.Size = new Size(250, 85);
+            enterAuctionHouseBTN.TabIndex = 36;
+            enterAuctionHouseBTN.Text = "Enter Auction House";
+            enterAuctionHouseBTN.UseVisualStyleBackColor = true;
+            enterAuctionHouseBTN.Click += enterAuctionHouseBTN_Click;
+            // 
             // CaptainDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(974, 560);
+            Controls.Add(enterAuctionHouseBTN);
             Controls.Add(label6);
             Controls.Add(label2);
             Controls.Add(label8);
             Controls.Add(label9);
-            Controls.Add(button1);
             Controls.Add(viewCaptainTeamBTN);
             Controls.Add(label3);
             Controls.Add(label7);
@@ -175,10 +178,10 @@
         private Label label7;
         private Label label3;
         private Button viewCaptainTeamBTN;
-        private Button button1;
         private Label label6;
         private Label label2;
         private Label label8;
         private Label label9;
+        private Button enterAuctionHouseBTN;
     }
 }

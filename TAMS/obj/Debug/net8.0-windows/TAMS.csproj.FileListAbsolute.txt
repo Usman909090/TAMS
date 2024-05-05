@@ -32,3 +32,10 @@ C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.PlayerRegistrationFo
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.UpdateHealthStatus.resources
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ViewAllTeams.resources
 C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.sourcelink.json
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ViewBidHistory.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.RegisterTournamentAuction.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.AuctionHouseForm.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ViewMyTeam.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ManageParticipantsRequests.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.ViewAllBidHistory.resources
+C:\Users\Hp\Desktop\TAMS\TAMS\obj\Debug\net8.0-windows\TAMS.CreateTournamentAuction.resources

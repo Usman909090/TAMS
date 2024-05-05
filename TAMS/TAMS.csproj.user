@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="AuctionHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="BidHeraldDashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -13,7 +16,13 @@
     <Compile Update="CaptainRegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="CreateTournamentAuction.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="LoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageParticipantsRequests.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="PlayerDashboard.cs">
@@ -22,13 +31,22 @@
     <Compile Update="PlayerRegistrationForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="RegisterTournamentAuction.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="RegistrationScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UpdateHealthStatus.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="ViewAllBidHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ViewAllTeams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ViewBidHistory.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ViewMyTeam.cs">

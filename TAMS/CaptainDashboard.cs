@@ -90,5 +90,23 @@ namespace TAMS
             // Optionally, you can hide the current form if needed
             // this.Hide();
         }
+
+        private void viewBidHistoryBTN_Click(object sender, EventArgs e)
+        {
+            ViewBidHistory viewBidHistory = new ViewBidHistory(userId);
+            viewBidHistory.Show();
+        }
+
+        private void registerForTournamentBTN_Click(object sender, EventArgs e)
+        {
+            RegisterTournamentAuction registerTournamentAuction = new RegisterTournamentAuction(userId);
+            registerTournamentAuction.Show();
+        }
+
+        private void enterAuctionHouseBTN_Click(object sender, EventArgs e)
+        {
+            AuctionHouseForm auctionHouseForm = new AuctionHouseForm(userId);
+            auctionHouseForm.Show();
+        }
     }
 }

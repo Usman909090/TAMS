@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Data.SqlClient;
+using System.Linq.Expressions;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace TAMS
 {
@@ -67,7 +69,15 @@ namespace TAMS
 
         private void ViewAllTeams_Click(object sender, EventArgs e)
         {
-           
+            ViewAllTeams viewAllTeams = new ViewAllTeams();
+            viewAllTeams.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            RegisterTournamentAuction registerTournamentAuction = new RegisterTournamentAuction();
+            registerTournamentAuction.ShowDialog();
+        }
+
     }
 }

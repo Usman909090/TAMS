@@ -35,7 +35,7 @@ namespace TAMS
                         switch (role)
                         {
                             case "BidHerald":
-                                new BidHeraldDashboard().Show();
+                                new BidHeraldDashboard(userId).Show();
                                 break;
                             case "Captain":
                                 new CaptainDashboard(userId).Show();
@@ -86,6 +86,12 @@ namespace TAMS
         private void LoginScreen_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void registerBTN_Click(object sender, EventArgs e)
+        {
+            RegistrationScreen registrationScreen = new RegistrationScreen();
+            registrationScreen.Show();
         }
     }
 }

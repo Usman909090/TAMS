@@ -50,12 +50,16 @@ namespace TAMS
                         SqlCommand playerInsertCommand = new SqlCommand(playerInsertQuery, con, transaction);
                         playerInsertCommand.Parameters.AddWithValue("@UserId", userId);
                         playerInsertCommand.Parameters.AddWithValue("@HealthStatus", healthStatus.SelectedItem.ToString());
-
                         playerInsertCommand.ExecuteNonQuery();
+
+                        // Assign the role of Player to the user
+                        AssignRole(con, transaction, userId, 1); // Role ID 1 for Player
 
                         // Commit transaction
                         transaction.Commit();
                         MessageBox.Show("Registration successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        PlayerDashboard playerDashboard = new PlayerDashboard(userId);
+                        playerDashboard.Show();
                     }
                     catch (Exception ex)
                     {
@@ -69,6 +73,15 @@ namespace TAMS
             {
                 MessageBox.Show("Database connection failed: " + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void AssignRole(SqlConnection con, SqlTransaction transaction, int userId, int roleId)
+        {
+            string roleInsertQuery = "INSERT INTO UserRoles (UserID, RoleID) VALUES (@UserId, @RoleId)";
+            SqlCommand roleInsertCommand = new SqlCommand(roleInsertQuery, con, transaction);
+            roleInsertCommand.Parameters.AddWithValue("@UserId", userId);
+            roleInsertCommand.Parameters.AddWithValue("@RoleId", roleId);
+            roleInsertCommand.ExecuteNonQuery();
         }
     }
 }

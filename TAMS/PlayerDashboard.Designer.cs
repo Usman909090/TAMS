@@ -24,6 +24,7 @@
             viewAllTeamsBTN = new Button();
             label6 = new Label();
             label7 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -114,11 +115,22 @@
             label7.TabIndex = 24;
             label7.Text = "Hashers Limited";
             // 
+            // button1
+            // 
+            button1.Location = new Point(347, 469);
+            button1.Name = "button1";
+            button1.Size = new Size(207, 53);
+            button1.TabIndex = 26;
+            button1.Text = "Register in auction tournament";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // PlayerDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(974, 560);
+            Controls.Add(button1);
             Controls.Add(label6);
             Controls.Add(label7);
             Controls.Add(viewAllTeamsBTN);
@@ -143,5 +155,6 @@
         private Button viewAllTeamsBTN;
         private Label label6;
         private Label label7;
+        private Button button1;
     }
 }

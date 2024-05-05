@@ -33,6 +33,7 @@
             bidHerald = new Button();
             captain = new Button();
             player = new Button();
+            loginBTN = new Button();
             SuspendLayout();
             // 
             // label1
@@ -82,11 +83,22 @@
             player.Text = "Player";
             player.UseVisualStyleBackColor = true;
             // 
+            // loginBTN
+            // 
+            loginBTN.Location = new Point(843, 505);
+            loginBTN.Name = "loginBTN";
+            loginBTN.Size = new Size(94, 29);
+            loginBTN.TabIndex = 5;
+            loginBTN.Text = "Login";
+            loginBTN.UseVisualStyleBackColor = true;
+            loginBTN.Click += loginBTN_Click;
+            // 
             // RegistrationScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(974, 560);
+            Controls.Add(loginBTN);
             Controls.Add(player);
             Controls.Add(captain);
             Controls.Add(bidHerald);
@@ -105,5 +117,6 @@
         private Button bidHerald;
         private Button captain;
         private Button player;
+        private Button loginBTN;
     }
 }

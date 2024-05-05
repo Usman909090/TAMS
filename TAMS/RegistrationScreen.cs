@@ -44,5 +44,11 @@ namespace TAMS
             PlayerRegistrationForm playerForm = new PlayerRegistrationForm();
             playerForm.Show();
         }
+
+        private void loginBTN_Click(object sender, EventArgs e)
+        {
+            LoginScreen loginScreen = new LoginScreen();
+            loginScreen.Show();
+        }
     }
 }

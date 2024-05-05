@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TAMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1739f4ef65f43e6519e9ed104affbe87f9b1b6ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1158f2b023f23f5c32c3fc39a1715a6dbe508dd")]
 [assembly: System.Reflection.AssemblyProductAttribute("TAMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TAMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,11 +30,15 @@ namespace TAMS
                     try
                     {
                         int teamId = CreateTeam(con, transaction);
-
                         int captainId = CreateCaptain(con, transaction, teamId);
+
+                        // Assuming role ID for Captain is 3, as mentioned
+                        AssignRole(con, transaction, captainId, 3);
 
                         transaction.Commit();
                         MessageBox.Show("Registration successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        CaptainDashboard captainDashboard = new CaptainDashboard(captainId);
+                        captainDashboard.Show();
                     }
                     catch (Exception ex)
                     {
@@ -61,7 +65,6 @@ namespace TAMS
         private int CreateCaptain(SqlConnection con, SqlTransaction transaction, int teamId)
         {
             int userId = CreateUser(con, transaction);
-
             string captainInsertQuery = "INSERT INTO Captain (UserID, TeamManagedID) OUTPUT INSERTED.UserID VALUES (@UserId, @TeamId)";
             SqlCommand captainInsertCommand = new SqlCommand(captainInsertQuery, con, transaction);
             captainInsertCommand.Parameters.AddWithValue("@UserId", userId);
@@ -77,6 +80,15 @@ namespace TAMS
             userInsertCommand.Parameters.AddWithValue("@Email", email.Text);
             userInsertCommand.Parameters.AddWithValue("@Password", password.Text);
             return (int)userInsertCommand.ExecuteScalar();
+        }
+
+        private void AssignRole(SqlConnection con, SqlTransaction transaction, int userId, int roleId)
+        {
+            string roleInsertQuery = "INSERT INTO UserRoles (UserID, RoleID) VALUES (@UserId, @RoleId)";
+            SqlCommand roleInsertCommand = new SqlCommand(roleInsertQuery, con, transaction);
+            roleInsertCommand.Parameters.AddWithValue("@UserId", userId);
+            roleInsertCommand.Parameters.AddWithValue("@RoleId", roleId);
+            roleInsertCommand.ExecuteNonQuery();
         }
 
         private bool ValidateInput()

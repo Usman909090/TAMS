@@ -23,8 +23,12 @@ namespace TAMS
             {
                 int userId = CreateUser(name.Text, email.Text, password.Text);
                 int bidHeraldId = CreateBidHerald(userId, licenseNumber.Text, Convert.ToInt32(experianceYears.Text));
+                // Assign the role of Bid Herald to the user
+                AssignBidHeraldRole(userId);
 
                 MessageBox.Show("Bid Herald registration successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                BidHeraldDashboard bidHeraldDashboard = new BidHeraldDashboard(userId);
+                bidHeraldDashboard.Show();
             }
             catch (Exception ex)
             {
@@ -81,6 +85,21 @@ namespace TAMS
 
             return bidHeraldId;
         }
+
+        // Add this method to your existing class
+        private void AssignBidHeraldRole(int userId)
+        {
+            using (SqlConnection con = new SqlConnection(connectionString))
+            {
+                con.Open();
+                string roleAssignQuery = "INSERT INTO UserRoles (UserID, RoleID) VALUES (@UserId, @RoleId)";
+                SqlCommand roleAssignCommand = new SqlCommand(roleAssignQuery, con);
+                roleAssignCommand.Parameters.AddWithValue("@UserId", userId);
+                roleAssignCommand.Parameters.AddWithValue("@RoleId", 2); // Assuming 2 is the RoleID for Bid Herald
+                roleAssignCommand.ExecuteNonQuery();
+            }
+        }
+
 
         private bool ValidateInput()
         {

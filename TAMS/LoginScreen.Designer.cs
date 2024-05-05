@@ -22,6 +22,7 @@
             label1 = new Label();
             label3 = new Label();
             label4 = new Label();
+            registerBTN = new Button();
             SuspendLayout();
             // 
             // txtUsername
@@ -90,11 +91,22 @@
             label4.TabIndex = 18;
             label4.Text = "Password";
             // 
+            // registerBTN
+            // 
+            registerBTN.Location = new Point(828, 510);
+            registerBTN.Name = "registerBTN";
+            registerBTN.Size = new Size(94, 29);
+            registerBTN.TabIndex = 19;
+            registerBTN.Text = "Register";
+            registerBTN.UseVisualStyleBackColor = true;
+            registerBTN.Click += registerBTN_Click;
+            // 
             // LoginScreen
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(974, 560);
+            Controls.Add(registerBTN);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -117,5 +129,6 @@
         private Label label1;
         private Label label3;
         private Label label4;
+        private Button registerBTN;
     }
 }
