@@ -15,12 +15,17 @@
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Player Dashboard";
-            this.Name = "PlayerDashboard";
-            // Additional components and their properties can be added here
+            SuspendLayout();
+            // 
+            // PlayerDashboard
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "PlayerDashboard";
+            Text = "Player Dashboard";
+            Load += PlayerDashboard_Load;
+            ResumeLayout(false);
         }
     }
 }

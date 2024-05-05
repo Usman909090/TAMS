@@ -36,9 +36,9 @@
             label4 = new Label();
             label5 = new Label();
             password = new TextBox();
+            submitButton = new Button();
             label6 = new Label();
             healthStatus = new ComboBox();
-            submitButton = new Button();
             SuspendLayout();
             // 
             // label1
@@ -63,7 +63,7 @@
             // 
             // name
             // 
-            name.Location = new Point(210, 223);
+            name.Location = new Point(106, 223);
             name.Margin = new Padding(3, 2, 3, 2);
             name.Name = "name";
             name.Size = new Size(143, 23);
@@ -71,7 +71,7 @@
             // 
             // email
             // 
-            email.Location = new Point(464, 223);
+            email.Location = new Point(389, 223);
             email.Margin = new Padding(3, 2, 3, 2);
             email.Name = "email";
             email.Size = new Size(143, 23);
@@ -80,7 +80,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(210, 206);
+            label3.Location = new Point(106, 206);
             label3.Name = "label3";
             label3.Size = new Size(39, 15);
             label3.TabIndex = 6;
@@ -89,7 +89,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(464, 206);
+            label4.Location = new Point(389, 206);
             label4.Name = "label4";
             label4.Size = new Size(36, 15);
             label4.TabIndex = 7;
@@ -98,7 +98,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(210, 273);
+            label5.Location = new Point(106, 273);
             label5.Name = "label5";
             label5.Size = new Size(57, 15);
             label5.TabIndex = 8;
@@ -106,17 +106,28 @@
             // 
             // password
             // 
-            password.Location = new Point(210, 290);
+            password.Location = new Point(106, 290);
             password.Margin = new Padding(3, 2, 3, 2);
             password.Name = "password";
             password.Size = new Size(143, 23);
             password.TabIndex = 9;
             password.UseSystemPasswordChar = true;
             // 
+            // submitButton
+            // 
+            submitButton.Location = new Point(283, 351);
+            submitButton.Margin = new Padding(3, 2, 3, 2);
+            submitButton.Name = "submitButton";
+            submitButton.Size = new Size(82, 22);
+            submitButton.TabIndex = 12;
+            submitButton.Text = "Submit";
+            submitButton.UseVisualStyleBackColor = true;
+            submitButton.Click += submitButton_Click_1;
+            // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(464, 273);
+            label6.Location = new Point(389, 273);
             label6.Name = "label6";
             label6.Size = new Size(77, 15);
             label6.TabIndex = 10;
@@ -126,22 +137,11 @@
             // 
             healthStatus.FormattingEnabled = true;
             healthStatus.Items.AddRange(new object[] { "Fit", "Unfit" });
-            healthStatus.Location = new Point(464, 290);
+            healthStatus.Location = new Point(389, 290);
             healthStatus.Margin = new Padding(3, 2, 3, 2);
             healthStatus.Name = "healthStatus";
             healthStatus.Size = new Size(143, 23);
             healthStatus.TabIndex = 11;
-            // 
-            // submitButton
-            // 
-            submitButton.Location = new Point(369, 341);
-            submitButton.Margin = new Padding(3, 2, 3, 2);
-            submitButton.Name = "submitButton";
-            submitButton.Size = new Size(82, 22);
-            submitButton.TabIndex = 12;
-            submitButton.Text = "Submit";
-            submitButton.UseVisualStyleBackColor = true;
-            submitButton.Click += submitButton_Click_1;
             // 
             // PlayerRegistrationForm
             // 
@@ -178,8 +178,8 @@
         private Label label4;
         private Label label5;
         private TextBox password;
+        private Button submitButton;
         private Label label6;
         private ComboBox healthStatus;
-        private Button submitButton;
     }
 }

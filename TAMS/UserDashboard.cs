@@ -16,5 +16,10 @@ namespace TAMS
         {
             InitializeComponent();
         }
+
+        private void UserDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -151,6 +151,7 @@
             label1.Size = new Size(577, 72);
             label1.TabIndex = 28;
             label1.Text = "Bid Herald Registration";
+            label1.Click += label1_Click;
             // 
             // experianceYears
             // 
@@ -181,6 +182,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "BidHeraldRegistrationForm";
             Text = "BidHeraldRegistrationForm";
+            Load += BidHeraldRegistrationForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -24,5 +24,10 @@ namespace TAMS
             this.Name = "CaptainDashboard";
             // Additional controls and functionalities can be added here
         }
+
+        private void CaptainDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -24,5 +24,10 @@ namespace TAMS
             this.Name = "PlayerDashboard";
             // Add controls and setup for the player dashboard here
         }
+
+        private void PlayerDashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

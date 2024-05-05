@@ -15,12 +15,17 @@
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Captain Dashboard";
-            this.Name = "CaptainDashboard";
-            // Additional components and their properties can be added here
+            SuspendLayout();
+            // 
+            // CaptainDashboard
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Name = "CaptainDashboard";
+            Text = "Captain Dashboard";
+            Load += CaptainDashboard_Load;
+            ResumeLayout(false);
         }
     }
 }

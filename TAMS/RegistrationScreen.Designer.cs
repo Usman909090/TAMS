@@ -44,6 +44,7 @@
             label1.Size = new Size(314, 72);
             label1.TabIndex = 0;
             label1.Text = "Registration";
+            label1.Click += label1_Click;
             // 
             // label2
             // 
