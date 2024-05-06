@@ -21,6 +21,8 @@ namespace TAMS
 
             string connectionString = "Data Source=DESKTOP-UTDORAK\\SQLEXPRESS; Initial Catalog=TAMS; Integrated Security=True; Encrypt=false";
 
+    
+
             // Query to fetch team names, player names, and health status
             string query = "SELECT Team.TeamName, [User].Username AS PlayerName, Player.HealthStatus " +
                            "FROM Team " +

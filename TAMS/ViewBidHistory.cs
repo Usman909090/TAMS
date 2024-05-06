@@ -21,12 +21,25 @@ namespace TAMS
             string connectionString = "Data Source=DESKTOP-UTDORAK\\SQLEXPRESS; Initial Catalog=TAMS; Integrated Security=True; Encrypt=false";
 
             string query = @"
-                SELECT Auction.AuctionID, Bid.Amount, Bid.BidTime, [User].Username AS PlayerName
-                FROM Bid
-                INNER JOIN Auction ON Bid.AuctionID = Auction.AuctionID
-                INNER JOIN [User] ON Bid.PlayerID = [User].UserID
-                WHERE Bid.CaptainID = @captainId
-                ORDER BY Bid.BidTime DESC";
+                        SELECT a.AuctionID, b.Amount, b.BidTime, u.PlayerName
+                        FROM (
+                            SELECT AuctionID, Amount, BidTime, PlayerID
+                            FROM Bid
+                            WHERE CaptainID = @captainId
+                        ) AS b
+                        INNER JOIN (
+                            SELECT AuctionID
+                            FROM Auction
+                        ) AS a ON b.AuctionID = a.AuctionID
+                        INNER JOIN (
+                            SELECT UserID, Username AS PlayerName
+                            FROM [User]
+                        ) AS u ON b.PlayerID = u.UserID
+                        ORDER BY b.BidTime DESC";
+
+
+
+
 
             using (SqlConnection con = new SqlConnection(connectionString))
             {
